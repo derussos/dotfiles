@@ -3,6 +3,9 @@ scriptencoding utf-8
 set fileencoding=utf-8,cp932,sjis,utf-16le
 set fileformats=dos,unix
 
+execute pathogen#infect()
+execute pathogen#helptags()
+
 sytax enable
 filetype plugin indent on
 
